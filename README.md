@@ -22,4 +22,17 @@
   - t2img: Team 2 Image
     
 *Tasks:*
+1. Fetch cricket match data from the provided API endpoint using HTTP GET request.
+2. Perform computations to:
+   * Find the highest score in one innings with the team name.
+   * Count the number of matches with a total score of 300 or more from both teams.
+3. Print the computed results in the console.
+4. Return a message from the main function containing the computed results.
+
+*Key Points:*
+* Use Java for implementation.
+* Utilize the org.json library to parse the JSON response from the API.
+* Ensure error handling for any exceptions that may occur during data fetching or processing.
+
+> By completing these tasks, the program provides essential insights into the recent cricket matches, including the highest score achieved and the number of high-scoring matches.
   
