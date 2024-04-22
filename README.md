@@ -35,4 +35,25 @@
 * Ensure error handling for any exceptions that may occur during data fetching or processing.
 
 > By completing these tasks, the program provides essential insights into the recent cricket matches, including the highest score achieved and the number of high-scoring matches.
-  
+
+*Code Explanation:)
+1. The program uses Java to fetch data from the given API endpoint using HTTP GET requests.
+2. It then parses the JSON response to extract match details such as team names, scores, match type, status, etc.
+3. It calculates the highest score from each match and keeps track of the highest score across all matches.
+4. It counts the number of matches where the total score from both teams is 300 or more.
+5. Finally, it prints match details along with the highest score and the count of matches with a total score of 300 or more.
+
+*Technologies Used:*
+1. Java: The core programming language used for development.
+2. HTTPURLConnection: Java built-in class for making HTTP requests to the API endpoint.
+3. JSON: The response from the API is in JSON format, and the program uses the org.json library to parse it.
+
+*Methods Used:*
+1. 'fetchJsonData:' This method makes an HTTP GET request to the API endpoint and returns the JSON response as a string.
+2. 'processJsonData:' This method processes the JSON data, calculates the highest score, counts the number of matches with a total score of 300 or more, and constructs the 
+   output message.
+3. 'main:' The entry point of the program. It triggers the data fetching and processing, prints the result, and handles exceptions.
+
+
+>*This Java program utilizes an external API to retrieve cricket match data, analyzing it to determine the highest score in a single innings and count the matches with a combined score of 300 or more, as per the problem statement.*
+
